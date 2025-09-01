@@ -6,7 +6,7 @@ export default function Home() {
     backgroundImage: "url('./images/background-mobile.png')"
   }
   return (
-    <div style={bgColored} className="font-inconsolata bg-cover bg-center w-full min-h-screen ">
+    <div style={bgColored} className="font-inconsolata bg-cover bg-center    w-full min-h-screen ">
       <Image 
         src="/images/logo-full.svg" 
         alt="Logo" 
