@@ -7,7 +7,13 @@ export default function Home() {
   }
   return (
     <div style={bgColored} className="font-inconsolata bg-cover bg-center w-full min-h-screen ">
-      <h1>Coook my meal</h1>
+      <Image 
+        src="/images/logo-full.svg" 
+        alt="Logo" 
+        width={200} 
+        height={100} 
+        className="mx-auto pt-10"
+      />
     </div>
   );
 }
