@@ -16,7 +16,7 @@ export default function Home() {
         className="mx-auto pt-10"
       />
       <div className="md:w-[50%]">
-        <h1 className="text-2xl md:text-4xl text-[hsl(0,0%,100%)] font-bold pt-6">
+        <h1 className="text-2xl md:text-5xl text-[hsl(0,0%,100%)] font-bold pt-6">
           Your Journey to Coding Conf 2025 Starts Here!
         </h1>
         <p className="pt-2 text-[hsl(252,6%,83%)]">
