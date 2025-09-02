@@ -6,7 +6,8 @@ export default function Home() {
     backgroundImage: "url('./images/background-mobile.png')"
   }
   return (
-    <div style={bgColored} className=" bg-cover bg-center  min-h-screen flex flex-col items-center text-center px-4">
+    <div style={bgColored} 
+      className=" bg-cover bg-center  min-h-screen flex flex-col items-center text-center px-4">
       <Image 
         src="/images/logo-full.svg" 
         alt="Logo" 
@@ -15,8 +16,12 @@ export default function Home() {
         className="mx-auto pt-10"
       />
       <div className="md:w-[50%]">
-        <h1 className="text-2xl md:text-4xl text-[hsl(0,0%,100%)] font-bold pt-6">Your Journey to Coding Conf 2025 Starts Here!</h1>
-        <p className="pt-2 text-[hsl(252,6%,83%)]">Secure your spot at next year's biggest coding conference</p>
+        <h1 className="text-2xl md:text-4xl text-[hsl(0,0%,100%)] font-bold pt-6">
+          Your Journey to Coding Conf 2025 Starts Here!
+        </h1>
+        <p className="pt-2 text-[hsl(252,6%,83%)]">
+          Secure your spot at next year's biggest coding conference
+        </p>
       </div>
       <div className="flex items-start flex-col w-full md:w-[30%] pt-4 h-40  mx-auto">
         <p className="text-[hsl(0,0%,100%)] ">Upload Avatar</p>
@@ -29,7 +34,9 @@ export default function Home() {
               height={40} 
               className=""
             />
-            <p className="text-[hsl(252,6%,83%)] ">Drag and drop or click to upload</p>
+            <p className="text-[hsl(252,6%,83%)] ">
+              Drag and drop or click to upload
+            </p>
           </div>
         </div>
         <div className="flex pt-2 gap-2">
@@ -40,7 +47,9 @@ export default function Home() {
             height={15} 
             className=""
           />
-          <p className="text-[10px] sm:text-sm ">upload your photos (JPG or PNG), max size: 500kb</p>
+          <p className="text-[10px] sm:text-sm ">
+            upload your photos (JPG or PNG), max size: 500kb
+          </p>
         </div>
       </div>
     </div>
