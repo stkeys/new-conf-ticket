@@ -29,18 +29,18 @@ export default function Home() {
               height={40} 
               className=""
             />
-            <p className="text-[hsl(252,6%,83%)] pt-2">Drag and drop or click to upload</p>
+            <p className="text-[hsl(252,6%,83%)] ">Drag and drop or click to upload</p>
           </div>
         </div>
-        <div className="flex gap-2">
+        <div className="flex pt-2 gap-2">
           <Image 
             src="/images/icon-info.svg" 
             alt="Icon info" 
-            width={20} 
-            height={20} 
+            width={15} 
+            height={15} 
             className=""
           />
-          <p className="text-sm">upload your photos (JPG or PNG), max size: 500kb</p>
+          <p className="text-[10px] sm:text-sm ">upload your photos (JPG or PNG), max size: 500kb</p>
         </div>
       </div>
     </div>
