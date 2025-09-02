@@ -18,10 +18,29 @@ export default function Home() {
         <h1 className="text-2xl md:text-4xl text-[hsl(0,0%,100%)] font-bold pt-6">Your Journey to Coding Conf 2025 Starts Here!</h1>
         <p className="pt-2 text-[hsl(252,6%,83%)]">Secure your spot at next year's biggest coding conference</p>
       </div>
-      <div className="flex items-start flex-col w-full md:w-[50%] pt-4">
+      <div className="flex items-start flex-col w-full md:w-[30%] pt-4 h-40  mx-auto">
         <p className="text-[hsl(0,0%,100%)] ">Upload Avatar</p>
-        <div className="bg-[hsl(245, 19%, 35%)] h-40 w-full border border-dashed border-white">
-
+        <div className="bg-[hsl(248,70%,10%)] h-40 w-full border border-dashed rounded-lg border-white">
+          <div className="flex items-center justify-center flex-col pt-4">
+            <Image 
+              src="/images/icon-upload.svg" 
+              alt="Icon Upload" 
+              width={40} 
+              height={40} 
+              className=""
+            />
+            <p className="text-[hsl(252,6%,83%)] pt-2">Drag and drop or click to upload</p>
+          </div>
+        </div>
+        <div className="flex gap-2">
+          <Image 
+            src="/images/icon-info.svg" 
+            alt="Icon info" 
+            width={20} 
+            height={20} 
+            className=""
+          />
+          <p className="text-sm">upload your photos (JPG or PNG), max size: 500kb</p>
         </div>
       </div>
     </div>
