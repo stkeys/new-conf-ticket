@@ -20,7 +20,7 @@ export default function Home() {
           Your Journey to Coding Conf 2025 Starts Here!
         </h1>
         <p className="pt-2 text-[hsl(252,6%,83%)]">
-          Secure your spot at next year's biggest coding conference
+          Secure your spot at next years biggest coding conference
         </p>
       </div>
       <div className="flex items-start flex-col w-full md:w-[30%] pt-4 h-40  mx-auto">
