@@ -1,8 +1,11 @@
 'use client';
 import  FormData  from '@/types/form';
+import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 
 export default function Form() : React.ReactElement {
+
+  const router = useRouter();
   const [ formData, setFormData ] = useState<FormData>({
     fullName: '',
     email: '',
@@ -18,8 +21,12 @@ export default function Form() : React.ReactElement {
     if (!formData.email.match(/^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/)) newErrors.email = "Valid email is required";
     if (!formData.githubUsername.trim()) newErrors.githubUsername = "Github username is required";
 
+
     setErrors(newErrors);
+    router.push('/ticket');
+
     return Object.keys(newErrors).length === 0;  
+
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
