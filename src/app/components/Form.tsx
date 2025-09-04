@@ -23,7 +23,7 @@ export default function Form() : React.ReactElement {
 
 
     setErrors(newErrors);
-    router.push('/ticket');
+    router.push('/Ticket');
 
     return Object.keys(newErrors).length === 0;  
 
