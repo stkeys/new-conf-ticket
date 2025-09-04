@@ -44,7 +44,7 @@ export default function Form() : React.ReactElement {
           name="fullName" 
           value={formData.fullName} 
           onChange={handleChange} 
-          className='w-full'
+          className='bg-[hsl(248,70%,10%)] w-full border outline-none px-3 py-2 rounded-md'
         />
         {errors.fullName && <span className="text-red-500 text-sm">{errors.fullName}</span>}
       </div>
@@ -56,7 +56,7 @@ export default function Form() : React.ReactElement {
           name="fullName" 
           value={formData.email} 
           onChange={handleChange} 
-          className='w-full'
+          className='bg-[hsl(248,70%,10%)] w-full border outline-none px-3 py-2 rounded-md'
         />
         {errors.fullName && <span className="text-red-500 text-sm">{errors.fullName}</span>}
       </div>
@@ -68,7 +68,7 @@ export default function Form() : React.ReactElement {
           name="fullName" 
           value={formData.githubUsername} 
           onChange={handleChange} 
-          className='w-full'
+          className='bg-[hsl(248,70%,10%)] w-full border outline-none px-3 py-2 rounded-md'
         />
         {errors.fullName && <span className="text-red-500 text-sm">{errors.fullName}</span>}
       </div>
