@@ -26,7 +26,7 @@ export default function Home() {
       </div>
       <div className="flex items-start flex-col w-full md:w-[30%] pt-4 h-40  mx-auto">
         <p className="text-[hsl(0,0%,100%)] ">Upload Avatar</p>
-        <div className="bg-[hsl(248,70%,10%)] h-40 w-full border border-dashed rounded-lg border-white">
+        <div className="bg-[hsl(248,70%,10%)] h-40 w-full border border-dashed border-[hsl(245,19%,35%)] rounded-lg">
           <div className="flex items-center justify-center flex-col pt-4">
             <Image 
               src="/images/icon-upload.svg" 
