@@ -38,7 +38,7 @@ export default function Form() : React.ReactElement {
   return (
     <form onSubmit={handleSubmit} className="mt-10 w-full">
       <div className="flex flex-col items-start mb-4 ">
-        <label className='mb-2 '>Full Name</label>
+        <label className='mb-2 text-[hsl(252,6%,83%)]'>Full Name</label>
         <input 
           type="text" 
           name="fullName" 
@@ -50,7 +50,7 @@ export default function Form() : React.ReactElement {
       </div>
 
       <div className="flex flex-col items-start mb-4 ">
-        <label className='mb-2 '>Email Address</label>
+        <label className='mb-2 text-[hsl(252,6%,83%)]'>Email Address</label>
         <input 
           type="text" 
           name="fullName" 
@@ -62,7 +62,7 @@ export default function Form() : React.ReactElement {
       </div>
 
       <div className="flex flex-col items-start mb-4 ">
-        <label className='mb-2 '>Github Username</label>
+        <label className='mb-2 text-[hsl(252,6%,83%)]'>Github Username</label>
         <input 
           type="text" 
           name="fullName" 

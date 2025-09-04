@@ -48,7 +48,7 @@ export default function Home() {
             height={15} 
             className=""
           />
-          <p className="text-[10px] sm:text-sm ">
+          <p className="text-[10px] sm:text-sm text-[hsl(252,6%,83%)]">
             upload your photos (JPG or PNG), max size: 500kb
           </p>
         </div>
