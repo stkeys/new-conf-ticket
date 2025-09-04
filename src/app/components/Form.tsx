@@ -74,7 +74,7 @@ export default function Form() : React.ReactElement {
       </div>
       <button
       type='submit'
-      className='w-full '> 
+      className='w-full bg-[hsl(7,71%,60%)] text-black rounded-md py-2'> 
        Generate my Ticket
       </button>
     </form>
