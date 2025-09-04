@@ -1,5 +1,6 @@
 'use client';
 import Image from "next/image";
+import Form from "./components/Form";
 
 export default function Home() {
   const bgColored = {
@@ -7,7 +8,7 @@ export default function Home() {
   }
   return (
     <div style={bgColored} 
-      className=" bg-cover bg-center  min-h-screen flex flex-col items-center text-center px-4">
+      className=" bg-cover bg-center  overflow-x-hidden min-h-screen flex flex-col items-center text-center px-4">
       <Image 
         src="/images/logo-full.svg" 
         alt="Logo" 
@@ -51,6 +52,7 @@ export default function Home() {
             upload your photos (JPG or PNG), max size: 500kb
           </p>
         </div>
+        <Form />
       </div>
     </div>
   );
