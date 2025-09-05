@@ -32,24 +32,45 @@ export default function Ticket() : React.ReactElement {
           and will send updates in the run up to the event.
         </p>
 
-        <div className="relative">
-          <Image 
-            src="/images/pattern-ticket.svg" 
-            alt="Ticket" 
-            width={300} 
-            height={200} 
-            className="mx-auto pt-10 md:w-[400px] md:h-[300px]"
-          />
-          <div className="absolute top-[40%] left-10 transform -translate-x-1/2 -translate-y-1/2">
-            <Image 
-              src="/images/logo-mark.svg" 
-              alt="Ticket Full"
-              width={20 }
-              height={20 }
-              className="" 
-            />
-          </div>
-        </div>
+        <div className="relative mx-auto max-w-sm sm:max-w-md">
+  <Image
+    src="/images/pattern-ticket.svg"
+    alt="Ticket"
+    width={400}
+    height={300}
+    className="w-full h-auto pt-10"
+  />
+  <div className="absolute inset-0 flex flex-col items-start ml-4 pt-[calc(17%)] sm:pt-[calc(15%)]">
+    <div className="w-4/5 flex items-center gap-4">
+      <Image
+        src="/images/logo-mark.svg"
+        alt="Ticket Full"
+        width={30}
+        height={30}
+        className="shrink-0"
+      />
+      <div className="flex flex-col items-start text-white">
+        <p className="font-bold text-xl leading-tight">Coding Conf</p>
+        <p className="text-[12px] md:text-sm">Jan 31, 2025 / Austin, TX</p>
+      </div>
+    </div>
+
+     <div className="w-4/5 flex items-center gap-4 pt-8 sm:pt-10">
+      <Image
+        src="/images/logo-mark.svg"
+        alt="Ticket Full"
+        width={30}
+        height={30}
+        className="shrink-0"
+      />
+      <div className="flex flex-col items-start text-white">
+        <p className="font-bold text-xl leading-tight">Coding Conf</p>
+        <p className="text-[12px] md:text-sm">Jan 31, 2025 / Austin, TX</p>
+      </div>
+    </div>
+  </div>
+</div>
+        
       </div>
 
       
