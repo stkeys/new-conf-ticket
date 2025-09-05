@@ -1,5 +1,6 @@
 'use client';
 import Image from "next/image";
+import github from '../../../public/images/image-avatar.jpg';
 
 export default function Ticket() : React.ReactElement {
   const bgColored = {
@@ -44,7 +45,7 @@ export default function Ticket() : React.ReactElement {
             <div className="w-4/5 flex items-center gap-4">
              <Image
                src="/images/logo-mark.svg"
-               alt="Ticket Full"
+               alt="logo"
                width={30}
                height={30}
                className="shrink-0"
@@ -57,15 +58,25 @@ export default function Ticket() : React.ReactElement {
 
             <div className="w-4/5 flex items-center gap-4 pt-8 sm:pt-10">
               <Image
-                src="/images/logo-mark.svg"
-                alt="Ticket Full"
-                width={30}
-                height={30}
-                className="shrink-0"
+                src="/images/image-avatar.jpg"
+                alt="avatar"
+                width={40}
+                height={40}
+                className="shrink-0 sm:w-[20%] sm:h-[100%] rounded-lg"
               />
               <div className="flex flex-col items-start text-white">
-                <p className="font-bold text-xl leading-tight">Coding Conf</p>
-                <p className="text-[12px] md:text-sm">Jan 31, 2025 / Austin, TX</p>
+                <p className="font-bold text-lg leading-tight">Jonathan Kristof</p>
+                <div className="flex items-center ">
+                  <Image 
+                    src="/images/icon-github.svg" 
+                    alt="github" 
+                    width={12} 
+                    height={12} 
+                    className="inline-block mr-2"
+                  />
+                  <p className="text-[12px] md:text-sm">@jonathanKristof</p>
+
+                </div>
               </div>
             </div>
           </div>
