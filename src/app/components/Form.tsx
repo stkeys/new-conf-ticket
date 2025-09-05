@@ -60,24 +60,24 @@ export default function Form() : React.ReactElement {
         <label className='mb-2 text-[hsl(252,6%,83%)]'>Email Address</label>
         <input 
           type="text" 
-          name="fullName" 
+          name="email" 
           value={formData.email} 
           onChange={handleChange} 
           className='bg-[hsl(248,70%,10%)] w-full border outline-none px-3 py-2 rounded-md border-[hsl(245,19%,35%)]'
         />
-        {errors.fullName && <span className="text-red-500 text-sm">{errors.fullName}</span>}
+        {errors.fullName && <span className="text-red-500 text-sm">{errors.email}</span>}
       </div>
 
       <div className="flex flex-col items-start mb-4 ">
         <label className='mb-2 text-[hsl(252,6%,83%)]'>Github Username</label>
         <input 
           type="text" 
-          name="fullName" 
+          name="githubUsername" 
           value={formData.githubUsername} 
           onChange={handleChange} 
           className='bg-[hsl(248,70%,10%)] w-full border outline-none px-3 py-2 rounded-md border-[hsl(245,19%,35%)]'
         />
-        {errors.fullName && <span className="text-red-500 text-sm">{errors.fullName}</span>}
+        {errors.fullName && <span className="text-red-500 text-sm">{errors.githubUsername}</span>}
       </div>
       <button
       type='submit'
