@@ -18,7 +18,7 @@ export default function Ticket() : React.ReactElement {
         />
       </div>
       <h1 className="text-2xl">Congrats, Jonathan Kristof! Your ticket is ready</h1>
-      <p>We've emailed your ticket to <span>jonatan@email.com</span> and will send updates in the run up to the event</p>
+      <p>We ve emailed your ticket to <span>jonatan@email.com</span> and will send updates in the run up to the event</p>
     </div>
  )
 
